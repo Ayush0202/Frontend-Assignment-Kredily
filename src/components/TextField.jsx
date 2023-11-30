@@ -14,6 +14,7 @@ function TextBox() {
 
   const handleSubmit = () => {
     navigate(`/weather/${zip}`);
+    navigate(0);
   };
 
   return (
