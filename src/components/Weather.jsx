@@ -24,7 +24,7 @@ function Weather() {
     const getAllData = async () => {
       try {
         const response = await axios.get(
-          `http://api.openweathermap.org/data/2.5/forecast?zip=${id},In&appid=${APIKEY}&units=metric`
+          `https://api.openweathermap.org/data/2.5/forecast?zip=${id},In&appid=${APIKEY}&units=metric`
         );
         console.log(response.data);
         setWeatherData(response.data);
