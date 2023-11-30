@@ -15,6 +15,8 @@ const APIKEY = import.meta.env.VITE_API_KEY;
 function Weather() {
   const { id } = useParams();
 
+  console.log(id);
+
   const [weatherData, setWeatherData] = useState({});
   const [status, setStatus] = useState(null);
 
