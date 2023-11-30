@@ -14,8 +14,8 @@ function TextBox() {
 
   const handleSubmit = () => {
     navigate(`/weather/${zip}`);
-    window.location.reload();
   };
+
   return (
     <>
       <h1>5 Day Weather Forcast</h1>
