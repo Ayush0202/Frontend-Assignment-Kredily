@@ -13,7 +13,7 @@ function TextBox() {
   };
 
   const handleSubmit = () => {
-    navigate(`weather/${zip}`);
+    navigate(`/weather/${zip}`);
     window.location.reload();
   };
   return (
